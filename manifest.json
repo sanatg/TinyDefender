@@ -1,0 +1,42 @@
+{
+  "name": "TinyDefender",
+  "description": "Block ads, trackers and creepy stuff with crazy speeds.recommended to be used with TinyBlocker",
+  "manifest_version": 2,
+  "version": "1.0.00",
+  "homepage_url": "https://github.com/sanatg/TinyDefender",
+  "author": "sanatg",
+  "icons": {
+    "128": "./icons/main-icon-o-128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "tabs",
+    "<all_urls>",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "background": {
+    "scripts": [
+      "background.bundle.js"   
+    ]
+  },
+  "browser_action": {
+    "default_title": "TinyDefender"
+  },
+  "content_scripts": [
+    {
+      "match_about_blank": true,
+      "all_frames": true,
+      "js": [
+        "content-script.bundle.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
