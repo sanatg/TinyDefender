@@ -18,7 +18,7 @@ function disable(
   blocker.disableBlockingInBrowser(browser);
   blocker.unsubscribe('request-blocked', incrementBlockedCounter);
   blocker.unsubscribe('request-redirected', incrementBlockedCounter);
-  chrome.tabs.reload();
+  browser.tabs.reload();
 }
 
 function enable(
@@ -28,7 +28,7 @@ function enable(
   blocker.enableBlockingInBrowser(browser);
   blocker.on('request-blocked', incrementBlockedCounter);
   blocker.on('request-redirected', incrementBlockedCounter);
-  chrome.tabs.reload();
+  browser.tabs.reload();
 }
 
 async function load(): Promise<WebExtensionBlocker> {

@@ -47,6 +47,9 @@ Following Blocklists were used:
 - Adgaurd Base filters(ads + tracking + spyware + dns + mobileads)
 - nocoin minerblocking filter 
 - malware lists
+- Anti-adblock filters
+- FuckAdblock filters
+
 
 The Defender is initialized in less than 200ms, even on cold start, which means that ads and trackers are blocked as soon as your browser starts.
 
@@ -87,6 +90,10 @@ time of this writing are:
 - [Adgaurd base filters](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)
 - [nocoin minerblocking filter ](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
 - [malware lists](https://curben.gitlab.io/malware-filter/urlhaus-filter-ag.txt)
+- [Anti-adblock filters](https://easylist-downloads.adblockplus.org/antiadblockfilters.txt)
+- [Fuckfuckadblock filters](https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt)
+
+
 
 credits
  this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and more features
