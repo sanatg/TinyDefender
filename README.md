@@ -99,5 +99,5 @@ time of this writing are:
 
 introducing cross browser support for the extension and adding more blocklists for better cosmetic filtering.
 
-credits
- this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and more features
+## Credits
+ this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and better features.
