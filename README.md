@@ -53,13 +53,21 @@ Following Blocklists were used:
 
 The Defender is initialized in less than 200ms, even on cold start, which means that ads and trackers are blocked as soon as your browser starts.
 
-## Building
+## Installation
+
+### Building from source
 
 Building code from https://github.com/sanatg/TinyDefender can be done with:
 
 1. Installing dependencies: `yarn install --frozen-lock`
 2. Run the Shell Script:`chmod +x ./build.sh && ./build.sh`
-2. Load the build folder in Firefox or Chromium by using the "Load unpacked extension" feature
+3. Load the build folder in Firefox or Chromium by using the "Load unpacked extension" feature.
+
+### Using prebuild
+
+If you don't want to compile from source i have pre included the build folder to load it in Firefox or Chromium.
+
+You can also find a crx file from the release page.
 
 ## FAQ
 
