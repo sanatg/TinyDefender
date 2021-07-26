@@ -94,6 +94,10 @@ time of this writing are:
 - [Fuckfuckadblock filters](https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt)
 
 
+## Updates
+> Date 26/7/2021
+
+introducing cross browser support for the extension and adding more blocklists for better cosmetic filtering.
 
 credits
  this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and more features
