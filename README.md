@@ -94,6 +94,9 @@ time of this writing are:
 - [uBlock filters - Resource abuse](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt)
 - [uBlock filters - Badware risks](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt)
 - [uBlock filters - Unbreak](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt)
+
+Separately loaded
+
 - [Adgaurd base filters](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt)
 - [nocoin minerblocking filter ](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
 - [malware lists](https://curben.gitlab.io/malware-filter/urlhaus-filter-ag.txt)
