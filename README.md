@@ -104,9 +104,15 @@ Separately loaded
 
 
 ## Updates
+
 > Date 26/7/2021
 
 introducing cross browser support for the extension and adding more blocklists for better cosmetic filtering.
+
+## Bug Tracker
+
+Please avoid opening issues for bugs in this repo instead open on: https://github.com/TinyBlocker/TinyDefender
+
 
 ## Credits
  this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and better features.
