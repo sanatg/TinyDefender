@@ -7,8 +7,7 @@
   <em>
     Efficient
     · Minimal
-    · Adblocker
-    · Privacy
+    . open source
     . Powerful
   </em>
 </p>
