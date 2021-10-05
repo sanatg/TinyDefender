@@ -7,8 +7,8 @@
   <em>
     Efficient
     · Minimal
-    . open source
-    . Powerful
+    · open source
+    · Powerful
   </em>
 </p>
 
