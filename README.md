@@ -115,4 +115,4 @@ Please avoid opening issues for bugs in this repo instead open on: https://githu
 
 
 ## Credits
- this is a fork of the work of [@remusao](https://github.com/remusao/blockrz) but is enhanced with blocklists and better features.
+ this project would never have existed without cliqz adblocking library
